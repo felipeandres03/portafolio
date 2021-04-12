@@ -1,0 +1,19 @@
+/* ========home======== */
+
+.home{
+    min-height: 100vh;
+}
+.home-greeting {
+    font-size: 1.2rem;
+}
+
+/* ========ABOUT ME======== */
+
+
+/* ========me work ======== */
+
+.bg-dark{
+    background-color: rgb(10, 9, 24);
+    padding-bottom: 20px;
+}
+

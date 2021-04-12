@@ -1,0 +1,118 @@
+
+/* ======================navegation movile=================================== */
+    .main-nav-movile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main-nav-movile li {
+        display: inline-block;
+    }
+    .main-nav-movile a {
+        color: #454545;
+        font-weight: 500;
+        font-size: 0.9rem;
+        padding: 10px 20px;
+        display: inline-block;
+    }
+    .main-nav-movile img{
+        max-width: 8rem;
+    }
+
+/* ======================navegation desktop=================================== */
+
+.container-desktop{
+    display:block;
+    background-color:rgb(41, 48, 48);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 15%;
+    height: 100%;
+}
+
+.profile{
+    padding: 1rem;
+    width: 100%;
+}
+
+.profile-img{
+    background-image: url(https://cdn.pixabay.com/photo/2016/01/19/17/48/woman-1149911__340.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50%;
+    border-radius: 100%;
+    margin-top: 10%;
+}
+
+.menu-pro{
+    border-top: 2px gold solid;
+    border-bottom: 2px gold solid;
+    padding: 1.5rem;
+}
+
+.menu-pro li{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.menu-pro a{
+    list-style: none;
+    color: white;
+}
+
+/* ======================home=================================== */
+
+.background-home{
+    position: relative;
+    background-image: url(https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825__340.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* ======================== ABOUT ME =============================== */
+
+.download-button {
+    display: flex;
+    width: 9rem;
+    margin-top: 10px;
+    text-align: start;
+    padding: 10px 10px;
+    text-decoration: none;
+    background-color: #ffc107;
+    color: black;
+    border-radius: 6px;
+}
+
+
+/* ========================== CONTAC ME =============================== */
+
+input{
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px black solid;
+}
+
+textarea{
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 2px black solid;
+}

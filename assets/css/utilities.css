@@ -1,0 +1,67 @@
+/* ========fuentes======== */
+.font-size-sm{
+    font-size: 16px;
+}
+
+.font-size-md{
+    font-size: 1.5rem;
+}
+
+.font-size-lg{
+    font-size: 3rem;
+}
+
+.text-white{
+    color: white;
+}
+
+/* ========spaces======== */
+
+.spaces-sm-top{
+    margin-top: 20px;
+}
+.spaces-sm-bot{
+    margin-bottom: 20px;
+}
+
+.space-md-top{
+    margin-top: 50px;
+}
+
+.title-space{
+    margin-top: 40px;
+}
+
+/*======== helpers ======== */
+
+.min-w-100-vh {
+    min-height: 100vh;
+}
+
+.text-align-center{
+    text-align: center
+}
+.align-items{
+    display:flex;
+    align-items: center;
+}
+
+.text-align-start{
+    text-align: start;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+
+.personal-data-list {
+    list-style: none;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.display-block{
+    display: block;
+}

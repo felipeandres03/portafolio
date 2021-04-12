@@ -1,0 +1,88 @@
+
+
+.primary-button{
+
+    color: black;
+    background-color: gold;
+    padding: 16px;
+    margin-top: 10px;
+    padding: 0.8rem 0.8rem;
+    background: #ffc107;
+    border-radius: 6rem;
+    border: 1px solid #ffc107;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.cards{
+    height: 100%;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.cards-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+
+}
+.info-cards{
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5); 
+    border-radius: 2rem;
+    transition: top 1s;
+    display: flex; 
+    justify-content: center;  
+    align-items: center;
+    overflow: hidden;
+}
+
+.cards:hover .info-cards{
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; 
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+
+} 
+
+/* ==========icons============== */
+
+/* home */
+
+#icon-home{
+    color: gold;
+    display: block;
+    font-size: 2.5rem;
+    margin-top: 18px;
+    cursor: pointer;
+}
+
+#icon-home:hover {
+    color: lightgray;
+}
+
+.section-icons{
+    text-align: center;
+    
+}
+
+.section-icons a{
+    position: relative;
+
+}
+
+
+/* rest icons */
+
+
+
+

@@ -15,6 +15,11 @@
     cursor: pointer;
 }
 
+.primary-button a{
+    text-decoration: none;
+    color: black;
+}
+/* cards  */
 .cards{
     height: 100%;
     margin: 20px;
